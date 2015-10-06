@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.authors            = { "Johannes Lumpe" => "johannes@lum.pe" }
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/johanneslumpe/react-native-keyboardevents.git", :head }
+  s.source       = { :git => "https://github.com/mchinyakov/react-native-keyboardevents.git", :head }
   s.source_files  = "*.{h,m}"
 
 end
