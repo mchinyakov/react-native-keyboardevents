@@ -4,8 +4,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "A short description of RNKeyboardEvents."
 
-  s.description  = <<-DESC
-                   DESC
+  s.description  = ""
 
   s.homepage     = "https://github.com/johanneslumpe/react-native-keyboardevents"
 
@@ -13,7 +12,8 @@ Pod::Spec.new do |s|
   s.authors            = { "Johannes Lumpe" => "johannes@lum.pe" }
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/mchinyakov/react-native-keyboardevents.git", :head }
-  s.source_files  = "*.{h,m}"
+  s.requires_arc = true
+  s.source       = { :git => "https://github.com/mchinyakov/react-native-keyboardevents.git", :tag => "0.0.1" }
+  s.source_files  = "/*.{h,m}"
 
 end
